@@ -20,7 +20,7 @@ let package = Package(
         // Note: used by StableDiffusion library to download weights
         .package(
             url: "https://github.com/huggingface/swift-transformers",
-            .upToNextMajor(from: "1.3.0")
+            .upToNextMajor(from: "1.1.0")
         ),
         .package(url: "https://github.com/1024jp/GzipSwift", "6.0.1" ... "6.0.1"),  // Only needed by MLXMNIST
     ],
